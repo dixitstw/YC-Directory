@@ -1,0 +1,48 @@
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @sanity/presentation-comlink@1.0.21
+npm warn Found: @sanity/client@6.29.1
+npm warn node_modules/@sanity/client
+npm warn   @sanity/client@"^6.24.1" from @sanity/export@3.44.0
+npm warn   node_modules/@sanity/export
+npm warn     @sanity/export@"^3.44.0" from sanity@3.92.0
+npm warn     node_modules/sanity
+npm warn   11 more (@sanity/types, @sanity/util, @sanity/mutate, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer @sanity/client@"^7.1.0" from @sanity/presentation-comlink@1.0.21
+npm warn node_modules/@sanity/presentation-comlink
+npm warn   @sanity/presentation-comlink@"^1.0.6" from @sanity/next-loader@1.3.1
+npm warn   node_modules/@sanity/next-loader
+npm warn   3 more (@sanity/preview-kit, @sanity/visual-editing, sanity)
+npm warn
+npm warn Conflicting peer dependency: @sanity/client@7.6.0
+npm warn node_modules/@sanity/client
+npm warn   peer @sanity/client@"^7.1.0" from @sanity/presentation-comlink@1.0.21
+npm warn   node_modules/@sanity/presentation-comlink
+npm warn     @sanity/presentation-comlink@"^1.0.6" from @sanity/next-loader@1.3.1
+npm warn     node_modules/@sanity/next-loader
+npm warn     3 more (@sanity/preview-kit, @sanity/visual-editing, sanity)
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @sanity/visual-editing-csm@2.0.18
+npm warn Found: @sanity/client@6.29.1
+npm warn node_modules/@sanity/client
+npm warn   @sanity/client@"^6.24.1" from @sanity/export@3.44.0
+npm warn   node_modules/@sanity/export
+npm warn     @sanity/export@"^3.44.0" from sanity@3.92.0
+npm warn     node_modules/sanity
+npm warn   11 more (@sanity/types, @sanity/util, @sanity/mutate, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer @sanity/client@"^7.1.0" from @sanity/visual-editing-csm@2.0.18
+npm warn node_modules/@sanity/visual-editing-csm
+npm warn   @sanity/visual-editing-csm@"^2.0.4" from @sanity/visual-editing@2.13.2
+npm warn   node_modules/@sanity/visual-editing
+npm warn
+npm warn Conflicting peer dependency: @sanity/client@7.6.0
+npm warn node_modules/@sanity/client
+npm warn   peer @sanity/client@"^7.1.0" from @sanity/visual-editing-csm@2.0.18
+npm warn   node_modules/@sanity/visual-editing-csm
+npm warn     @sanity/visual-editing-csm@"^2.0.4" from @sanity/visual-editing@2.13.2
+npm warn     node_modules/@sanity/visual-editing
+npm error Unable to resolve reference $react
+npm error A complete log of this run can be found in: /home/dipti/.npm/_logs/2025-06-24T13_50_03_669Z-debug-0.log

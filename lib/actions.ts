@@ -49,8 +49,6 @@ try {
 
 } catch (error) {
  console.log(error);
-
-
  return parseServerActionResponse( {
     error: JSON.stringify(error),
     status: "ERROR",

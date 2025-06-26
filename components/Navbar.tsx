@@ -39,7 +39,7 @@ const Navbar = async () => {
               <Link href={`/user/${session?.id}`}>
                 <Avatar className="size-10">
                     <AvatarImage src = {session?.user?.image || ''} alt = {session?.user?.name || ''}/>
-                    <AvatarFallback>AV</AvatarFallback>
+                    <AvatarFallback>AVIATOR</AvatarFallback>
                 </Avatar>
               </Link>
             </>
@@ -51,7 +51,7 @@ const Navbar = async () => {
                 await signIn("github");
               }}
             >
-              <button type="submit">Lon</button>
+              <button type="submit">Login</button>
             </form>
           )}
         </div>
